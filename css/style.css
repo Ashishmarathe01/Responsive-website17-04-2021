@@ -1,2 +1,69 @@
 *{ margin: 0;
 padding: 0;}
+
+/* 
+navbar style */
+
+.navbar{ 
+    display: flex;
+
+
+}
+.nav-list{
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 36px ;
+
+}
+ .nav-list li a{
+     text-decoration: none;
+     color: white;
+
+     
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color:gray;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+.right-nav{
+    
+    width: 50%;
+    /* background-color: blueviolet; */
+    text-align: right;
+
+}
+.img{
+    width: 40%;
+    border:  3px solid white;
+    border-radius: 50px;
+}
+#serch{
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 9px;
+    border: 2px solid gray;
+    margin: 20px;
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/pytho.jpg');
+    background-size: cover;
+    background-blend-mode:darken ;
+}
