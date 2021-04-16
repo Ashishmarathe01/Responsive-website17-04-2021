@@ -1,5 +1,6 @@
 *{ margin: 0;
 padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 /* 
 navbar style */
@@ -134,4 +135,38 @@ navbar style */
     align-items: center;
    vertical-align: middle;
         
+}
+/* section2 */
+/* .section-two{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    max-width: 75%;
+    margin: auto; */
+/* } */
+.para-main{
+    padding: 0px 40px;
+}
+
+/* section 3 */
+.section{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    max-width: 75%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.left{
+    flex-direction: row-reverse;
+}
+
+.classfluid{
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 400px;
+    
 }
