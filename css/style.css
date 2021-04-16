@@ -31,6 +31,8 @@ navbar style */
  .nav-list li a{
      text-decoration: none;
      color: white;
+     font-size: 18px;
+     font-family: 'Ubuntu', sans-serif;
 
      
 }
@@ -62,11 +64,11 @@ navbar style */
     border-radius: 50px;
 }
 #serch{
-    padding: 5px;
+    padding: 2px;
     font-size: 17px;
     border-radius: 9px;
     border: 2px solid gray;
-    margin: 20px;
+    margin: 22px 0px;
 
 }
 .background{
@@ -128,6 +130,8 @@ navbar style */
     background: none;
     color: white;
     cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
 
 }
 .btn-sm{
@@ -135,6 +139,11 @@ navbar style */
     align-items: center;
    vertical-align: middle;
         
+}
+.btn-dark{
+    color:black;
+    border: 1px solid black;
+    margin: 1px 0px;
 }
 /* section2 */
 /* .section-two{
@@ -169,4 +178,45 @@ navbar style */
     border-radius: 20px;
     width: 400px;
     
+}
+
+/* contact */
+.contact{
+    background-color: rgb(231, 225, 216);
+    height: 600px;
+}
+.head{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form{
+    max-width: 1200px;
+    margin: 42px auto;
+}
+
+.form input{
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding: 5px 5px;
+}
+.biginput{
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 6px;
+    
+    margin: 10px 0px;
+    padding: 52px 5px;
+}
+
+.footer-text{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
