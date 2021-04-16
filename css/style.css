@@ -6,9 +6,15 @@ navbar style */
 
 .navbar{ 
     display: flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
 
 
 }
+
 .nav-list{
     width: 50%;
     /* background-color: black; */
@@ -66,4 +72,66 @@ navbar style */
     background: rgba(0, 0, 0, 0.7) url('../img/pytho.jpg');
     background-size: cover;
     background-blend-mode:darken ;
+}
+
+/* 1Section */
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+    /* overflow: auto; */
+
+}
+
+.First-section{
+    height: 100vh;
+}
+.fisrthalf{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.secoundhalf{
+
+    width: 30%;
+}
+
+.secoundhalf img{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.bigtext{
+    font-size: 30px;
+
+}
+.smalltext{
+    font-size: 20px;
+}
+
+.btn{
+    padding: 8px 10px;
+    margin: 7px 5px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+.btn-sm{
+    padding: 6px 10px;
+    align-items: center;
+   vertical-align: middle;
+        
 }
