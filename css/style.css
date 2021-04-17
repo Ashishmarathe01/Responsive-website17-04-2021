@@ -1,5 +1,8 @@
 *{ margin: 0;
 padding: 0;}
+html{
+    scroll-behavior: smooth;
+}
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 /* 
@@ -12,6 +15,7 @@ navbar style */
     position: sticky;
     cursor: pointer;
     top: 0;
+    
 
 
 }
@@ -174,6 +178,7 @@ navbar style */
 }
 
 .classfluid{
+    margin: 10px 0px;
     border: 1px solid red;
     border-radius: 20px;
     width: 400px;
@@ -184,6 +189,7 @@ navbar style */
 .contact{
     background-color: rgb(231, 225, 216);
     height: 600px;
+    
 }
 .head{
     text-align: center;
@@ -192,7 +198,7 @@ navbar style */
     font-family: 'Ubuntu', sans-serif;
 }
 .form{
-    max-width: 1200px;
+    max-width: 62%;
     margin: 42px auto;
 }
 
@@ -221,23 +227,19 @@ navbar style */
     color: white;
 }
 
+.burger{
+    position:absolute;
+    top: 15px;
+    right: 7px;
+    cursor: pointer;
+    display: none;
 
-/* responsive */
-@media only screen and  (max-width:1240px){
-    .nav-list {
-        
-        flex-direction: column;
-    }
-    .navbar {
-        
-        flex-direction: column;
-    }
-
-    .right-nav {
-       
-        text-align: center;
-    }
-    #serch{
-        width: 100%;
-    }
 }
+.line{
+    background-color: white;
+    width: 30px;
+    height: 4px;
+    margin:5px 3px;
+}
+
+
