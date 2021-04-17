@@ -17,7 +17,7 @@ navbar style */
 }
 
 .nav-list{
-    width: 50%;
+    width: 47%;
     /* background-color: black; */
     display: flex;
     align-items: center;
@@ -219,4 +219,25 @@ navbar style */
     font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
     color: white;
+}
+
+
+/* responsive */
+@media only screen and  (max-width:1240px){
+    .nav-list {
+        
+        flex-direction: column;
+    }
+    .navbar {
+        
+        flex-direction: column;
+    }
+
+    .right-nav {
+       
+        text-align: center;
+    }
+    #serch{
+        width: 100%;
+    }
 }
